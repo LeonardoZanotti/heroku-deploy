@@ -90,13 +90,13 @@ $ npm run dev
 ```
 
 ## Deploy
-Now, with a project, we can do the deploy. First, do the login in the heroku-cli with
+Now, with a project, we can do the deploy. First, do the login in the heroku-cli with:
 ```bash
 $ heroku login
 ```
 Logged in, lets do the backend deploy.
 
-**If your project has many branchs, remember to checkout to the branch that you wants to deploy**
+**If your project has many branchs, remember to checkout to the branch that you wants to deploy.**
 
 ### Backend deploy
 ```bash
@@ -104,7 +104,7 @@ Logged in, lets do the backend deploy.
 $ cd backend/
 
 # If your project is already installed you can skip the configuration
-# Install all
+# Install all dependences
 $ composer install
 
 # Clone and config the .env
@@ -125,7 +125,7 @@ $ git init
 # Configure .gitignore
 $ nano .gitignore
 
-If you have a /storage/*.key in the .gitignore you should remove it. My gitignore:
+# If you have a /storage/*.key in the .gitignore you should remove it. My gitignore:
 /node_modules
 /public/hot
 /public/storage
