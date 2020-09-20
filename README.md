@@ -1,7 +1,7 @@
 <img src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png" alt="heroku" />
 
 # Heroku deploy
-Guide to deploy a Laravel (backend) + Vuejs (frontend) dynamic application.
+Guide to deploy a Laravel (backend) + Nuxt Vuejs (frontend) dynamic application.
 
 **If you have a project just go to Deploy section.**
 
