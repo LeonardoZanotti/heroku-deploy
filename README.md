@@ -217,13 +217,13 @@ The frontend site should open (if not, you can get the link in the heroku projec
 Now, your application is on heroku with the back and frontend.
 
 ## Heroku Cheatsheet
-`heroku create` : Create a heroku project
-`heroku config` : List the ambience variables
-`heroku logs` : Show the logs (--tail can be useful)
-`heroku open` : Open the deploy on the navigator
-`heroku run bash` : Open the herokus terminal
-`heroku restart` : Restart the application
-`heroku ps` : Show the dynos list and if the application is running
-`heroku apps:destroy <application>` : Delete the herokus application (need confirmation)
+`heroku create` : Create a heroku project <br />
+`heroku config` : List the ambience variables <br />
+`heroku logs` : Show the logs (--tail can be useful) <br />
+`heroku open` : Open the deploy on the navigator <br />
+`heroku run bash` : Open the herokus terminal <br />
+`heroku restart` : Restart the application <br />
+`heroku ps` : Show the dynos list and if the application is running <br />
+`heroku apps:destroy <application>` : Delete the herokus application (need confirmation) <br />
 
 ## LeonardoZanotti
