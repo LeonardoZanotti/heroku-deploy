@@ -46,7 +46,7 @@ $ GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
 # Exit mysql
 $ exit
 
-# Clone the .env.example file to configura the database
+# Clone the .env.example file to configure the database
 $ cp .env.example .env
 
 # .env configuration
@@ -65,7 +65,7 @@ $ composer require laravel/passport
 $ php artisan passport:install
 
 # Run the project -> The Laravel page will be available on localhost:8000
-php artisan serve
+$ php artisan serve
 ```
 
 ## Frontend installation
@@ -86,11 +86,15 @@ $ cd frontend/
 $ npm install
 
 # Run the frontend -> The Vue page will be available on localhost:8080
-$ npm run serve
+$ npm run dev
 ```
 
 ## Deploy
-Now, with a project, we can do the deploy. First, do the login in the heroku-cli with `heroku login`. Logged in, lets do the backend deploy.
+Now, with a project, we can do the deploy. First, do the login in the heroku-cli with
+```bash
+$ heroku login
+```
+Logged in, lets do the backend deploy.
 
 **If your project has many branchs, remember to checkout to the branch that you wants to deploy**
 
