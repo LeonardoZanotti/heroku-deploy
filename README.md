@@ -199,7 +199,7 @@ $ heroku create new-unique-name
     "npm": "6.4.1"
   }
 
-# The open the nuxt.config.js (or the file that refers the backend) and add this with target pointing to your backend link
+# Then open the nuxt.config.js (or the file that refers the backend) and add this with target pointing to your backend link
 proxy: {
     '/api/': { target: 'https://backend-herokudeploy.herokuapp.com/' }
   }
