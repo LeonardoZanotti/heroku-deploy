@@ -152,11 +152,12 @@ $ echo "web: vendor/bin/heroku-php-apache2 public/" > Procfile
 $ git add Procfile
 $ git commit -m "Procfile added"
 
-# Set the heroku key
+# Show the key
 $ php artisan --no-ansi key:generate --show
-# showed the key base64:iOdzZzO7CN4BTNc2QEfSdEQqaq0XlI9xPFYgAIjp29o=
+# Showed the key base64:iOdzZzO7CN4BTNc2QEfSdEQqaq0XlI9xPFYgAIjp29o=
+
+# Set Heroku key (Replace with your key)
 $ heroku config:set APP_KEY=base64:iOdzZzO7CN4BTNc2QEfSdEQqaq0XlI9xPFYgAIjp29o=
-# Replace with your key
 
 # Push to heroku
 $ git push heroku master
