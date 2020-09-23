@@ -1,7 +1,7 @@
 <div>
 	<img src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png" width="375" alt="Heroku" />
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="175" alt="Vue" />
-	<div style="display:inline-block;width:20px;"></div>
+	<p style="width:20px;"></p>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/220px-Laravel.svg.png" width="150" alt="Laravel" />	
 </div>
 
