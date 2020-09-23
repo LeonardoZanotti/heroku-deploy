@@ -1,4 +1,9 @@
-<img src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png" alt="heroku" />
+<div>
+	<img src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png" width="300" alt="Heroku" />
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="200" alt="Vue" />
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/220px-Laravel.svg.png" width="200" alt="Laravel" />	
+</div>
+
 
 # Heroku deploy
 Guide to deploy a Laravel (backend) + Nuxt Vuejs (frontend) dynamic application.
