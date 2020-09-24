@@ -1,6 +1,7 @@
 <div>
 	<img src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png" width="300" alt="Heroku" />
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="150" alt="Vue" />
+	<img src="https://tools.bendakhlia.org/user/pages/01.home/06.coding/17.laravel/laravel.png" width="300" alt="Laravel" />
 </div>
 
 
