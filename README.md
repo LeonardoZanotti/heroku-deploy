@@ -58,7 +58,7 @@ $ cp .env.example .env
 $ nano .env
 
 # Replace this infos with your credentials
-"DB_DATABASE =  capacitacao"
+"DB_DATABASE = capacitacao"
 "DB_USERNAME = your_user"
 "DB_PASSWORD = your_password"
 
