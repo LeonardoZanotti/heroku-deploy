@@ -151,7 +151,7 @@ $ git commit -m "Backend heroku"
 $ heroku create unique-name
 
 # Add a Procfile file. It will tells to heroku how to start the project
-$ echo "web: vendor/bin/heroku-php-apache2 public/" > Procfile
+$ echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
 
 # Commit the Procfile file
 $ git add Procfile
@@ -164,8 +164,10 @@ $ php artisan --no-ansi key:generate --show
 # Set Heroku key (Replace with your key)
 $ heroku config:set APP_KEY=base64:iOdzZzO7CN4BTNc2QEfSdEQqaq0XlI9xPFYgAIjp29o=
 
-# Push to heroku
+# If you are in master, push to heroku with this:
 $ git push heroku master
+# Else use:
+$ git push heroku your-branch:master
 
 # Then, lets create the heroku database
 $ heroku addons:create heroku-postgresql:hobby-dev
