@@ -27,7 +27,7 @@ Im using the following, but you can use the versions you use in your project:
 If you dont have a project and just wants to know how to deploy a heroku application, you can clone this repository and use the sample project or create a new project with `composer create-project laravel/laravel your-backend-project-name`.
 
 ```bash
-# CLone this project 
+# Clone this project 
 $ git clone https://github.com/LeonardoZanotti/heroku-deploy.git
 
 # Enter the backend folder
