@@ -219,7 +219,10 @@ $ heroku config:set NODE_ENV=production
 # Commit and push to heroku
 $ git add .
 $ git commit -m "Frontend heroku"
+# If you are in master, push to heroku with this:
 $ git push heroku master
+# Else use:
+$ git push heroku your-branch:master
 
 # And open the frontend link
 $ heroku open
